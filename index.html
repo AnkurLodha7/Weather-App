@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather App</title>
+    <link href="style.css">
+</head>
+<body>
+<div class="weather-app">
+
+    <div class="left">
+        <div class="location"> <label>City name: </label><span id="location">Unknow</span></div>
+        <div class="temperature"><label>Temperature: </label><span id="temperature">0</span>&deg; F</div>
+
+    </div>
+
+    <div class="right">
+        <div class="top">
+            <img id="icon" width="75px" src="" />
+    </div>
+    <div class="bottom">
+        <div class="humidity">
+            <img src="https://cdn4.iconfinder.com/data/icons/weather-25/512/Humidity-512x512-2.png" height="16px"/>
+            <label>Humidity: </label> <span id="humidity">0</span>%
+            </div>
+
+        <div class="wind">
+            <label>Wind: </label> <span id="wind">0</span>mph
+            </div>
+
+        </div >
+        <div class='description'><label>Conditions: </label><span id="description">undefined</span></div>
+    </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
